@@ -1,10 +1,19 @@
-# Getting Started with Create React App
+# Deployment Links
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href="https://invoicejet-client.herokuapp.com/">https://invoicejet-client.herokuapp.com/ </a>
 
-## Available Scripts
+<p>Frontend Repo <a href="https://github.com/Preethi-ST/Invoicejet-Client">https://github.com/Preethi-ST/Invoicejet-Client </a></p>
 
-In the project directory, you can run:
+<p>Backend Repo <a href="https://github.com/Preethi-ST/Invoicejet-Server">https://github.com/Preethi-ST/Invoicejet-Server </a></p>
+
+
+### `Login's to access application`
+
+<div><p>Admin Access : Email - <b>invoice.ad.2000@gmail.com </b> ; password - <b> Invoice@01 </b> </p> </div>
+
+<div><p>Manager Access : Email - <b>jothimain.t71@gmail.com </b> ; password - <b> Jothi@01 </b> </p> </div>
+
+<div><p>Employee Access : Email - <b>abinaya@gmail.com </b> ; password - <b> Abinaya@01 </b> </p> </div>
 
 ### `npm start`
 
