@@ -1,0 +1,20 @@
+.main{
+    margin-top: 80px;
+    width : 100%;
+    padding-left: 100px;
+    height: calc(86.9vh - 50px);
+    background-image: url('../Images/MainPage1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    object-fit: cover;
+    background-position: bottom right;
+    color :rgb(248, 247, 247)
+}
+.center-conent{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button{
+    width: 100px;
+}

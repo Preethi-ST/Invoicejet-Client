@@ -1,0 +1,16 @@
+.errorimg{
+    background-image: url('../Images/error.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    object-fit: cover;
+    background-position: left 30% ;
+    width : 100%;
+    height: calc(100vh - 80px);
+}
+.error{
+    width: 18rem;
+    padding : 30px;
+    background-color: red;
+    border-radius: 40px;
+    color : white
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+.navbar {
+    background-color: #00203FFF;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+  
+.menu-bars {
+    /* margin-left: 2rem; */
+    font-size: 1.25rem;
+    background: none;
+}
+  
+.nav-menu {
+    background-color: #00203FFF;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    position : fixed;
+    justify-content: center;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+}
+nav{
+    z-index: 10;
+    position: relative;  
+}
+.nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+  
+.nav-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+}
+  
+.nav-text a,.nav-text button{
+    text-decoration: none;
+    color: #ADEFD1FF;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+button{
+    background-color: #00203FFF;
+    border: none;
+}
+  
+.nav-text a:hover, .nav-text button:hover{
+    background-color: #f5f9fd;
+    color : #a81f74;
+}
+  
+.nav-menu-items {
+    width: 100%;
+}
+  
+.navbar-toggle {
+    background-color: #00203FFF;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+  
+span {
+    margin-left: 16px;
+} 
+
+/* Topbar */
+
+.logo-text{
+        /* Fallback: Set a background color. */
+        background-color: red;
+        font-family: 'Style Script', cursive;
+        /* Create the gradient. */
+        background-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+        font-weight: bold;
+        /* Set the background size and repeat properties. */
+        background-size: 100%;
+        background-repeat: repeat;
+      
+        /* Use the text as a mask for the background. */
+        /* This will show the gradient as a text color rather than element bg. */
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+}
+.navbar a,.white{
+    color : white
+}
+.navbar a:hover{
+    color:tomato;
+}
+.navbar-toggle a,.navbar a:hover{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 400px) {
+    .menu-bars,.logo-text{
+        font-size: 1rem;
+    }
+}

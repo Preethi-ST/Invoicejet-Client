@@ -1,0 +1,37 @@
+.not-allowed{
+    cursor: not-allowed;
+}
+form{
+    width : 18rem
+}
+h4{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+.form-group{
+    width: 18rem;
+}
+@media only screen and (max-width: 330px) {
+    .form-group{
+        width : 15rem
+    }
+}
+.borderless td, .borderless th {
+    border: none;
+}
+table{
+    background-color:rgb(246, 249, 250);
+    
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    color :lightseagreen
+  }
