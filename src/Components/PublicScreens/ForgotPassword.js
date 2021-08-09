@@ -15,7 +15,7 @@ function ForgotPassword() {
     const validationSchema = Yup.object({
         email : Yup.string().email('Enter valid email').required('Email is required')
     })
-    const onSubmit = async (values) => {
+    const onSubmit = async (values,onSubmitProps) => {
         const {email} = values
         let toastify,msg;
         try {

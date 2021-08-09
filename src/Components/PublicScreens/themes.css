@@ -14,5 +14,5 @@
     object-fit: cover;
     background-position: left 30% ;
     width : 100%;
-    height: calc(auto - 50px);
+    height: auto;
 }
